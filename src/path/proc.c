@@ -49,7 +49,7 @@ Action readlink_proc(const Tracee *tracee, char result[PATH_MAX],
 	int status;
 	pid_t pid;
 
-	assert(comparison == compare_paths("/proc", base));
+//	assert(comparison == compare_paths("/proc", base));
 
 	/* Remember: comparison = compare_paths("/proc", base)  */
 	switch (comparison) {
